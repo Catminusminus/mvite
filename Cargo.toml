@@ -1,0 +1,30 @@
+[package]
+name = "mvite"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+clap = { version = "4.3.12", features = ["derive"] }
+actix-web = "4"
+actix-files = "0.6"
+env_logger = "0.10"
+log = "0.4"
+swc_ecma_transforms_typescript = "0.180.7"
+swc_ecma_transforms_base  = "0.130.3"
+swc_common                = { version = "0.31.17", features = ["tty-emitter"] }
+swc_ecma_visit            = "0.93.1"
+swc_ecma_codegen             = "0.142.3"
+swc_ecma_parser              = "0.137.3"
+tempfile = "3.6.0"
+html_editor = "0.6.1"
+actix-web-actors = "4.2.0"
+futures = "0.3.28"
+actix = "0.13.0"
+notify = "6.0.1"
+swc_bundler = "0.217.13"
+anyhow = "1.0.72"
+swc_ecma_loader = { version = "0.43.19", features = ["node", "lru", "cache"] }
+swc_atoms = "0.5.7"
+swc_ecma_ast = "0.107.1"
